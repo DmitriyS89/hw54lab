@@ -26,7 +26,7 @@ public class EventService {
                     .id(event.getId())
                     .dateTime(event.getDateTime())
                     .name(event.getName())
-                    .subscription(event.getSubscription())
+                    .description(event.getDescription())
                     .build());
         });
         return eventDTOList;
